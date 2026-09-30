@@ -1,0 +1,36 @@
+===== MAPREDUCE SERVER LOG ANALYSIS =====
+Files processed: 4
+Workers used: 4
+Total valid requests: 100000
+Invalid lines: 0
+
+HTTP Methods:
+  GET: 50043
+  POST: 16775
+  DELETE: 16615
+  PUT: 16567
+
+Status Codes:
+  200: 39928
+  201: 10090
+  204: 9812
+  400: 9972
+  401: 10057
+  404: 10144
+  500: 9997
+
+Top URLs:
+  /products: 14390
+  /search: 14358
+  /home: 14304
+  /login: 14291
+  /checkout: 14282
+
+Top IPs:
+  192.168.1.1: 100
+  192.168.1.2: 100
+  192.168.1.3: 100
+  192.168.1.4: 100
+  192.168.1.5: 100
+
+Execution time: 0.181659 seconds
